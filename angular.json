@@ -30,7 +30,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "./node_modules/flexboxgrid/dist/flexboxgrid.min.css",
-              "./node_modules/swiper/dist/css/swiper.css",
+              "./node_modules/swiper/swiper.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -46,7 +46,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -74,7 +73,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -160,7 +158,6 @@
       }
     }
   },
-  "defaultProject": "platzi-store",
   "cli": {
     "analytics": "a1b43abb-96c0-45f0-b938-f192ec621d4f"
   }
